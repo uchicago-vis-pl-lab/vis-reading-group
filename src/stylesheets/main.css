@@ -1,0 +1,80 @@
+
+html,
+body {
+  align-items: center;
+  display: flex;
+  font-family: Gill Sans, Gill Sans MT,Calibri,sans-serif;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.rv-xy-plot {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-down {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.floated {
+  position: absolute;
+}
+
+.title-section {
+  max-width: 600px;
+}
+
+.clock {
+  width: 100%;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.margin-right {
+  margin-right: 20px;
+}
+
+.margin-left {
+  margin-left: 20px;
+}
+
+.section-title {
+  text-decoration: underline;
+}
+
+.main-content {
+  max-width: 600px;
+}
