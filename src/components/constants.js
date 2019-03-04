@@ -29,6 +29,6 @@ export const history = [{
 export const quarterInfo = {
   'Winter 2019': {
     location: 'JCL 280',
-    time: '12-1pm'
+    time: 'Fridays 12-1pm'
   }
 };
