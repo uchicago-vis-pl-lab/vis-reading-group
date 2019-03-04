@@ -20,7 +20,7 @@ export const history = [{
   paper: 'When (ish) is My Bus? User-centered Visualizations of Uncertainty in Everyday, Mobile Predictive Systems',
   authors: 'Matthew Kay, Tara Kola, Jessica R. Hullman, and Sean A. Munson',
   venue: 'SIGCHI 2016',
-  link: 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.442.2234&rep=rep1&type=pdf',
+  link: 'https://idl.cs.washington.edu/files/2016-WhenIsMyBus-CHI.pdf',
   presenter: 'Will',
   quarter: 'Winter 2019'
 }].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
