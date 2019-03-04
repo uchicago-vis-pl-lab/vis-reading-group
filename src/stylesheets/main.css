@@ -78,3 +78,12 @@ h1 {
 .main-content {
   max-width: 600px;
 }
+
+@media screen and (max-width: 600px) {
+  .clock {
+    display: none;
+  }
+  .main-content {
+    padding: 20px;
+  }
+}

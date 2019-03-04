@@ -20,12 +20,18 @@ class RootApp extends React.Component {
           </div>
         </div>
         <div>
+          {
+            /* eslint-disable max-len */
+          }
           <p>
             The UChicago Visualization Research reading group is an opportunity to explore the big and wonderful world of visualization research. Through this casual lunch+learn discussion group we hope to provide a palatable and pleasant trawl through the big questions in the field of visualization. We are generally focused on infovis papers, but we are open to all in the land of vis. All are welcome, food will be provided.
           </p>
           <p>
             To suggest a paper file a github issue <a href="https://github.com/uchicago-vis-pl-lab/vis-reading-group/issues">here</a>.
           </p>
+          {
+            /* eslint-enable max-len */
+          }
         </div>
         <div>
           <h2 className="section-title">Schedule + History</h2>
