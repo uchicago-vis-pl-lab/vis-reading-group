@@ -23,12 +23,29 @@ export const history = [{
   link: 'https://idl.cs.washington.edu/files/2016-WhenIsMyBus-CHI.pdf',
   presenter: 'Will',
   quarter: 'Winter 2019'
+}, {
+  date: '3/15/19',
+  paper: 'Black Hat Visualization',
+  authors: 'Michael Correll, Jeffrey Heer',
+  venue: 'DECISIVe 2017',
+  link: 'https://idl.cs.washington.edu/files/2017-BlackHatVis-DECISIVe.pdf',
+  presenter: 'Andrew',
+  quarter: 'Winter 2019'
+}, {
+  paper: 'TBD',
+  quarter: 'Spring 2019'
 }].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 /* eslint-enable max-len*/
 
 export const quarterInfo = {
   'Winter 2019': {
     location: 'JCL 280',
-    time: 'Fridays 12-1pm'
+    time: 'Fridays 12-1pm',
+    order: 0
+  },
+  'Spring 2019': {
+    location: 'Location',
+    time: 'Time TBD',
+    order: 1
   }
 };

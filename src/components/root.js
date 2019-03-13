@@ -37,7 +37,9 @@ class RootApp extends React.Component {
           <h2 className="section-title">Schedule + History</h2>
           <div className="margin-top">
             {
-              Object.entries(quarters).map(([quarter, readings]) => {
+              Object.entries(quarters).sort(([quarterA], [quarterB]) => {
+                return quarterInfo[quarterB].order - quarterInfo[quarterA].order;
+              }).map(([quarter, readings]) => {
                 const {time, location} = quarterInfo[quarter];
                 return (<div key={quarter}>
                   <h3>{quarter}</h3>
@@ -45,8 +47,8 @@ class RootApp extends React.Component {
                   {readings.map(({date, paper, authors, venue, link, presenter}, idx) => {
                     return (<div className="flex-down margin-bottom" key={idx}>
                       <div><a href={link}>{paper}</a></div>
-                      <div><span>{`${venue} - ${authors}`}</span></div>
-                      <div>{`Date Read: ${date} - Discussion by ${presenter}`}</div>
+                      {venue && authors && <div><span>{`${venue} - ${authors}`}</span></div>}
+                      {date && presenter && <div>{`Date Read: ${date} - Discussion by ${presenter}`}</div>}
                     </div>);
                   })}
                 </div>);
