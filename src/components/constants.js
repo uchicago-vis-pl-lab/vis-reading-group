@@ -44,8 +44,8 @@ export const quarterInfo = {
     order: 0
   },
   'Spring 2019': {
-    location: 'Location',
-    time: 'Time TBD',
+    location: 'Location TBD',
+    time: 'Fridays 12:30',
     order: 1
   }
 };

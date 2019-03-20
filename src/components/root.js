@@ -27,7 +27,7 @@ class RootApp extends React.Component {
             The UChicago Visualization Research reading group is an opportunity to explore the big and wonderful world of visualization research. Through this casual lunch+learn discussion group we hope to provide a palatable and pleasant trawl through the big questions in the field of visualization. We are generally focused on infovis papers, but we are open to all in the land of vis. All are welcome, food will be provided.
           </p>
           <p>
-            To suggest a paper file a github issue <a href="https://github.com/uchicago-vis-pl-lab/vis-reading-group/issues">here</a>.
+            Direct any questions to our slack channel (UChicago CS#vis-reading-group) or send an email to mcnutt [@] uchicago.
           </p>
           {
             /* eslint-enable max-len */
