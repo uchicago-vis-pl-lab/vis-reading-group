@@ -51,7 +51,7 @@ export const history = [{
   date: '4/19/19',
   paper: 'Understanding Visualization: A Formal Approach Using Category Theory and Semiotics',
   authors: 'Paul Vickers, Joe Faith, and Nick Rossiter',
-  venue: 'DECISIVe 2017',
+  venue: 'VIS 2013',
   link: 'https://pdfs.semanticscholar.org/f2c6/40b88265071c7fc2e148871d73845b8b0705.pdf',
   presenter: 'Andrew',
   quarter: 'Spring 2019'
