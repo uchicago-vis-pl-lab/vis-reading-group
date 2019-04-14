@@ -52,7 +52,7 @@ export const history = [{
   paper: 'Understanding Visualization: A Formal Approach Using Category Theory and Semiotics',
   authors: 'Paul Vickers, Joe Faith, and Nick Rossiter',
   venue: 'VIS 2013',
-  link: 'https://pdfs.semanticscholar.org/f2c6/40b88265071c7fc2e148871d73845b8b0705.pdf',
+  link: 'https://uchicago-vis-pl-lab.github.io/vis-reading-group/assets/cat-semi.pdf',
   presenter: 'Andrew',
   quarter: 'Spring 2019'
 }, {
