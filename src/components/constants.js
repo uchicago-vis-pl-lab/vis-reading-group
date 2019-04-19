@@ -57,19 +57,19 @@ export const history = [{
   quarter: 'Spring 2019'
 }, {
   date: '4/26/19',
-  paper: 'Critical InfoVis: exploring the politics of visualization',
-  authors: 'Marian Dörk, Christopher Collins, Patrick Feng, and Sheelagh Carpendale',
-  venue: 'AltCHI 2013',
-  link: 'https://mariandoerk.de/criticalinfovis/',
-  presenter: 'Miranda',
-  quarter: 'Spring 2019'
-}, {
-  date: '5/3/19',
   paper: 'Human-Computer Insurrection Notes on an Anarchist HCI',
   authors: 'Os Keyes, Josephine Hoy, and Margaret Drouhard',
   venue: 'CHI 2019',
   link: 'https://ironholds.org/resources/papers/anarchist_hci.pdf',
   presenter: 'Galen',
+  quarter: 'Spring 2019'
+}, {
+  date: '5/3/19',
+  paper: 'Critical InfoVis: exploring the politics of visualization',
+  authors: 'Marian Dörk, Christopher Collins, Patrick Feng, and Sheelagh Carpendale',
+  venue: 'AltCHI 2013',
+  link: 'https://mariandoerk.de/criticalinfovis/',
+  presenter: 'Miranda',
   quarter: 'Spring 2019'
 }, {
   date: '5/10/19',
