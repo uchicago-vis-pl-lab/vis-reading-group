@@ -97,8 +97,8 @@ export const quarterInfo = {
     order: 0
   },
   'Spring 2019': {
-    location: 'JCL 354',
-    time: 'Fridays 12:30',
+    location: 'JCL 239',
+    time: 'Tuesdays 12:30',
     order: 1
   }
 };
