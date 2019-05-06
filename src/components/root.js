@@ -44,7 +44,7 @@ class RootApp extends React.Component {
                 return (<div key={quarter}>
                   <h3>{quarter}</h3>
                   <h5>{`${location} - ${time}`}</h5>
-                  {readings.map(({date, papers, authors, link, presenter}, idx) => {
+                  {readings.map(({date, papers, presenter}, idx) => {
                     return (<div className="flex-down margin-bottom" key={idx}>
                       {date && <div>{`Date: ${date}`}</div>}
                       {presenter && <div>{`Discussion by ${presenter}`}</div>}
