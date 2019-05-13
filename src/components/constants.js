@@ -121,22 +121,26 @@ export const history = [{
   ]
 }, {
   date: '5/14/19',
-
+  presenter: 'Will',
+  quarter: 'Spring 2019',
+  papers: [{
+    paper: 'A Lie Reveals the Truth: Quasimodes for Task-Aligned Data Presentation',
+    authors: 'Jacob Ritchie, Daniel Wigdor, and Fanny Chevalier',
+    venue: 'CHI 2019',
+    link: 'https://dl.acm.org/citation.cfm?id=3300423'
+  }]
+}, {
+  date: '5/21/19',
   presenter: 'Julia',
   quarter: 'Spring 2019',
   papers: [UNKNOWN_PAPER]
-}, {
-  date: '5/21/19',
-  presenter: 'Will',
-  quarter: 'Spring 2019',
-  papers: [
-    {
-      paper: 'Quality Metrics for Information Visualization',
-      authors: 'M. Behrisch, M. Blumenschein, N. W. Kim, L. Shao, M. El-Assady, J. Fuchs, D. Seebacher, A. Diehl U. Brandes, H. Pfister, T. Schreck, and D. Weiskopf, D. A. Keim',
-      venue: 'EuroVis 2018',
-      link: 'https://bib.dbvis.de/uploadedFiles/QMSTAR_QualityMetricsForInformationVisualization_FINAL.pdf'
-    }
-  ]
+  //   {
+  //     paper: 'Quality Metrics for Information Visualization',
+  //     authors: 'M. Behrisch, M. Blumenschein, N. W. Kim, L. Shao, M. El-Assady, J. Fuchs, D. Seebacher, A. Diehl U. Brandes, H. Pfister, T. Schreck, and D. Weiskopf, D. A. Keim',
+  //     venue: 'EuroVis 2018',
+  //     link: 'https://bib.dbvis.de/uploadedFiles/QMSTAR_QualityMetricsForInformationVisualization_FINAL.pdf'
+  //   }
+  // ]
 }, {
   date: '5/28/19',
   presenter: 'Andrew',
