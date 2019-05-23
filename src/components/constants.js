@@ -130,22 +130,17 @@ export const history = [{
     link: 'https://dl.acm.org/citation.cfm?id=3300423'
   }]
 }, {
-  date: '5/21/19',
-  presenter: 'Julia',
-  quarter: 'Spring 2019',
-  papers: [UNKNOWN_PAPER]
-  //   {
-  //     paper: 'Quality Metrics for Information Visualization',
-  //     authors: 'M. Behrisch, M. Blumenschein, N. W. Kim, L. Shao, M. El-Assady, J. Fuchs, D. Seebacher, A. Diehl U. Brandes, H. Pfister, T. Schreck, and D. Weiskopf, D. A. Keim',
-  //     venue: 'EuroVis 2018',
-  //     link: 'https://bib.dbvis.de/uploadedFiles/QMSTAR_QualityMetricsForInformationVisualization_FINAL.pdf'
-  //   }
-  // ]
-}, {
   date: '5/28/19',
   presenter: 'Andrew',
   quarter: 'Spring 2019',
-  papers: [UNKNOWN_PAPER]
+  papers: [
+    {
+      paper: 'Where\'s My Data? Evaluating Visualizations with Missing Data',
+      authors: 'Hayeong Song ; Danielle Albers Szafir',
+      venue: 'VIS 2018',
+      link: 'https://ieeexplore.ieee.org/abstract/document/8440857'
+    }
+  ]
 }].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 /* eslint-enable max-len*/
 
