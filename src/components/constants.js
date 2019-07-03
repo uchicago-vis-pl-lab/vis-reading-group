@@ -141,6 +141,37 @@ export const history = [{
       link: 'https://ieeexplore.ieee.org/abstract/document/8440857'
     }
   ]
+}, {
+  date: '6/1/19',
+  presenter: 'Galen',
+  quarter: 'Summer 2019',
+  papers: [
+    {
+      paper: 'Decision-Making Under Uncertainty in Research Synthesis: Designing for the Garden of Forking Paths',
+      authors: 'Alex Kale, Matthew Kay, and Jessica Hullman',
+      venue: 'CHI 2019',
+      link: 'https://mucollective.northwestern.edu/files/2019-AnalysisPathsResearchSynthesis-CHI.pdf'
+    }
+  ]
+}, {
+  date: '6/8/19',
+  presenter: 'Teo',
+  quarter: 'Summer 2019',
+  papers: [
+    {
+      paper: 'The Topology ToolKit',
+      authors: 'Julien Tierny, Guillaume Favelier, Joshua A. Levine, Charles Gueunet, and Michael Michaux',
+      venue: 'IEEE Visualization 2018',
+      link: 'https://arxiv.org/pdf/1805.09110.pdf'
+    }
+  ]
+}, {
+  date: '6/15/19',
+  presenter: 'Will',
+  quarter: 'Summer 2019',
+  papers: [
+      UNKNOWN_PAPER
+  ]
 }].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 /* eslint-enable max-len*/
 
@@ -153,6 +184,11 @@ export const quarterInfo = {
   'Spring 2019': {
     location: 'JCL 239',
     time: 'Tuesdays 12:30',
+    order: 1
+  },
+  'Summer 2019': {
+    location: 'JCL 257',
+    time: 'Mondays 12:00',
     order: 1
   }
 };
