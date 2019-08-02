@@ -170,7 +170,54 @@ export const history = [{
   presenter: 'Will',
   quarter: 'Summer 2019',
   papers: [
-      UNKNOWN_PAPER
+      {
+      paper: 'VizML: A Machine Learning Approach to Visualization Recommendation',
+      authors: 'Kevin Hu, Michiel A. Bakker, Stephen Li, Tim Kraska, and César Hidalgo',
+      venue: 'CHI \'19',
+      link: 'https://dl.acm.org/citation.cfm?id=3300358'
+    }
+  ]
+}, {
+  date: '6/22/19',
+  presenter: 'Julia',
+  quarter: 'Summer 2019',
+  papers: [
+      {
+      paper: 'Concept-Driven Visual Analytics: an Exploratory Study of Model- and Hypothesis-Based Reasoning with Visualizations',
+      authors: 'In Kwon Choi, Taylor Childers, Nirmal Kumar Raveendranath, Swati Mishra, Kyle Harris, and Khairi Reda',
+      venue: 'CHI \'19',
+      link: 'https://dl.acm.org/citation.cfm?id=3300298'
+    }
+  ]
+}, {
+  date: '7/05/19',
+  presenter: 'Galen',
+  quarter: 'Summer 2019',
+  papers: [
+      {
+      paper: 'DeepCompare: Visual and Interactive Comparison of Deep Learning Model Performance',
+      authors: 'Sugeerth Murugesan, Sana Malik, Fan Du, Eunyee koh, and Tuan Manh Lai',
+      venue: 'N/A (Book)',
+      link: 'http://sugeerth.cs.ucdavis.edu/Papers/deepcompare.pdf'
+    }
+  ]
+}, {
+  date: '7/12/19',
+  presenter: 'Teo',
+  quarter: 'Summer 2019',
+  papers: [
+      {
+      paper: 'Rendering and Extracting Extremal Features in 3D Fields',
+      authors: 'Gordon Kindlmann, Charisee Chiw, Tri Huynh, Attila Gabor Gyulassy, John Reppy, and  P.T. Prember',
+      venue: 'Eurovis\' 18',
+      link: 'http://people.cs.uchicago.edu/~glk/pubs/pdf/Kindlmann-RenderingExtractingExtremal-EV-2018.pdf'
+      },
+      {
+	  paper: 'Point Movement in a DSL for Higher-Order FEM Visualization',
+	  authors: 'Teodoro Collin, Charisee Chiw, L. Ridgway Scott, John Repply, Gordon Kindlmann',
+	  venue: 'IEEE Visualization 2019',
+	  link: 'http://www.w3.org/'
+      }
   ]
 }].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 /* eslint-enable max-len*/
