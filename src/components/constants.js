@@ -208,13 +208,13 @@ export const history = [{
   papers: [
       {
       paper: 'Rendering and Extracting Extremal Features in 3D Fields',
-      authors: 'Gordon Kindlmann, Charisee Chiw, Tri Huynh, Attila Gabor Gyulassy, John Reppy, and  P.T. Prember',
+      authors: 'Gordon Kindlmann, Charisee Chiw, Tri Huynh, Attila Gabor Gyulassy, John Reppy, and  P.T. Brember',
       venue: 'Eurovis\' 18',
       link: 'http://people.cs.uchicago.edu/~glk/pubs/pdf/Kindlmann-RenderingExtractingExtremal-EV-2018.pdf'
       },
       {
 	  paper: 'Point Movement in a DSL for Higher-Order FEM Visualization',
-	  authors: 'Teodoro Collin, Charisee Chiw, L. Ridgway Scott, John Repply, Gordon Kindlmann',
+	  authors: 'Teodoro Collin, Charisee Chiw, L. Ridgway Scott, John Reppy, and Gordon Kindlmann',
 	  venue: 'IEEE Visualization 2019',
 	  link: 'http://www.w3.org/'
       }
