@@ -278,6 +278,26 @@ export const history = [
       },
     ],
   },
+  {
+    date: '10/14/19',
+    presenter: 'Andrew',
+    quarter: 'Autum 2019',
+    papers: [
+      {
+        paper: 'Surprise! Bayesian Weighting for De-Biasing Thematic Maps',
+        authors: 'Michael Correll and Jeffrey Heer',
+        venue: 'VIS 16',
+        link:
+          'https://idl.cs.washington.edu/files/2017-SurpriseMaps-InfoVis.pdf',
+      },
+    ],
+  },
+  {
+    date: '10/21/19',
+    presenter: 'Will',
+    quarter: 'Autum 2019',
+    papers: [UNKNOWN_PAPER],
+  },
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 /* eslint-enable max-len*/
 
