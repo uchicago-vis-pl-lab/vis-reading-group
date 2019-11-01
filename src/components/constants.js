@@ -293,8 +293,38 @@ export const history = [
     ],
   },
   {
-    date: '10/21/19',
+    date: '10/25/19',
     presenter: 'Will',
+    quarter: 'Autum 2019',
+    papers: [
+      {
+        paper:
+          'Biased Average Position Estimates in Line and Bar Graphs: Underestimation, Overestimation, and Perceptual Pull',
+        authors:
+          'Cindy Xiong, Cristina R Ceja, Casimir Ludwig, Steven Franconeri',
+        venue: 'VIS 19',
+        link:
+          'https://idl.cs.washington.edu/files/2017-SurpriseMaps-InfoVis.pdf',
+      },
+    ],
+  },
+  {
+    date: '11/1/19',
+    presenter: 'Andrew',
+    quarter: 'Autum 2019',
+    papers: [
+      {
+        paper: 'IEEEVIS Trip Report',
+        authors: '*',
+        venue: 'VIS 19',
+        link:
+          'https://docs.google.com/presentation/d/1Skb1PfDEk86HazwejDLvi3-lQKfiqAEeM1IaicrrMfQ/edit',
+      },
+    ],
+  },
+  {
+    date: '11/8/19',
+    presenter: 'Katy',
     quarter: 'Autum 2019',
     papers: [UNKNOWN_PAPER],
   },
@@ -318,8 +348,8 @@ export const quarterInfo = {
     order: 2,
   },
   'Autum 2019': {
-    location: 'TBD',
-    time: 'Mondays 11:30',
+    location: 'VARIES',
+    time: 'Friday 11:45',
     order: 3,
   },
 };
