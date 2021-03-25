@@ -2,13 +2,29 @@ import React, {useState} from 'react';
 import Logo from './logo';
 
 export default function ClockExample() {
-  const [color, setColor] = useState('#CBF556');
+  const [color, setColor] = useState('#fff');
+  const [backgroundColor, setBackgroundColor] = useState('#CBF556');
 
   return (
     <div className="flex-down center">
-      <Logo height={'150px'} width={'150px'} background={color} />
+      <Logo
+        height={'150px'}
+        width={'150px'}
+        foreground={color}
+        background={backgroundColor}
+      />
       <div className="flex">
-        <input value={color} onChange={e => setColor(e.target.value)} />
+        <div className="flex-down">
+          <span>background</span>
+          <input value={color} onChange={e => setColor(e.target.value)} />
+        </div>
+        <div className="flex-down">
+          <span>foreground</span>
+          <input
+            value={backgroundColor}
+            onChange={e => setBackgroundColor(e.target.value)}
+          />
+        </div>
         <button
           onClick={() => {
             document
