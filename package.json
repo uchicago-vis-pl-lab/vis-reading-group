@@ -34,8 +34,7 @@
   },
   "dependencies": {
     "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-vis": "^1.10.4"
+    "react-dom": "^16.4.1"
   },
   "scripts": {
     "start": "webpack-dev-server --progress --hot --port 3001 --open",
